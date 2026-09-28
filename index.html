@@ -1,357 +1,797 @@
-<section id="about" class="section">
+<!DOCTYPE html>
+<html lang="it">
 
-    <div class="section-intro">
-        <span class="section-label">01 — PROFILO</span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <h2>
-            Software Engineer con una forte
-            attenzione alla <span>comprensione dei sistemi.</span>
-        </h2>
-    </div>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <div class="about-content">
+    <link rel="stylesheet" href="style.css">
 
-        <div class="about-main">
-            <p>
-                Sono una Software Engineer specializzata nello sviluppo backend,
-                nell'analisi di sistemi complessi e nella progettazione di
-                soluzioni software.
-            </p>
+    <title>Elena Tonolini | Software Engineer</title>
+</head>
 
-            <p>
-                Nel corso delle mie esperienze professionali ho avuto modo di
-                lavorare su sistemi eterogenei, confrontandomi sia con
-                tecnologie moderne sia con applicazioni e infrastrutture
-                legacy.
-            </p>
+<body>
 
-            <p>
-                Mi occupo non soltanto dello sviluppo di nuove funzionalità,
-                ma anche della comprensione e dell'evoluzione di software
-                esistenti: analisi del codice, debugging, refactoring,
-                migrazioni di database e sistemi, ottimizzazione delle query
-                e miglioramento delle performance.
-            </p>
+    <!-- =========================
+         NAVBAR
+         ========================= -->
 
-            <p>
-                Il mio approccio parte dalla comprensione del problema e del
-                contesto in cui si inserisce, per arrivare alla progettazione
-                di una soluzione concreta, mantenibile e coerente con
-                l'architettura esistente.
-            </p>
-        </div>
+    <nav class="navbar">
 
-        <div class="about-side">
+        <div class="nav-inner">
 
-            <div class="highlight">
-                <span class="highlight-number">04+</span>
-                <span class="highlight-label">anni di esperienza<br>professionale</span>
+            <a href="#" class="logo">
+                Elena<span>.</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#profilo">Profilo</a>
+                <a href="#esperienza">Esperienza</a>
+                <a href="#formazione">Formazione</a>
+                <a href="#competenze">Competenze</a>
+                <a href="#contatti">Contatti</a>
             </div>
 
-            <div class="highlight">
-                <span class="highlight-number">∞</span>
-                <span class="highlight-label">curiosità verso<br>nuove tecnologie</span>
-            </div>
+            <a href="#contatti" class="nav-contact">
+                Contattami
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
 
         </div>
 
-    </div>
-
-</section>
+    </nav>
 
 
-<section id="experience" class="section">
+    <main>
 
-    <div class="section-intro">
-        <span class="section-label">02 — ESPERIENZA</span>
+        <!-- =========================
+             HERO
+             ========================= -->
 
-        <h2>
-            Esperienza professionale
-        </h2>
-    </div>
+        <header class="hero">
 
-    <div class="experience-list">
-
-        <article class="experience">
-
-            <div class="experience-meta">
-                <span>09/2026 — OGGI</span>
-                <span class="experience-current">ATTUALE</span>
+            <div class="hero-background">
+                <div class="glow glow-one"></div>
+                <div class="glow glow-two"></div>
             </div>
 
-            <div class="experience-content">
+            <div class="hero-inner">
 
-                <h3>ERP Software Developer</h3>
+                <div class="hero-left">
 
-                <h4>SCAO Informatica</h4>
+                    <div class="status">
+                        <span></span>
+                        Software Engineer
+                    </div>
 
-                <p>
-                    Attività di sviluppo e manutenzione software in ambito ERP,
-                    con particolare attenzione alla comprensione della logica
-                    applicativa, all'evoluzione delle funzionalità esistenti
-                    e alla realizzazione di nuove soluzioni.
-                </p>
+                    <h1>
+                        Elena<br>
+                        <span>Tonolini.</span>
+                    </h1>
 
-                <p>
-                    Il ruolo comprende attività di analisi, sviluppo,
-                    debugging e intervento su sistemi software complessi,
-                    con l'obiettivo di garantire continuità, affidabilità
-                    e qualità del prodotto.
-                </p>
+                    <p class="hero-subtitle">
+                        Software Engineer &amp; Backend Developer
+                    </p>
 
-                <div class="experience-tags">
-                    <span>ERP</span>
-                    <span>Software Development</span>
-                    <span>Debugging</span>
-                    <span>Analisi</span>
+                    <p class="hero-description">
+                        Sviluppo software, analisi di sistemi complessi e
+                        progettazione di soluzioni backend con particolare
+                        attenzione alla qualità, alle performance e alla
+                        manutenibilità del codice.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#profilo" class="button button-primary">
+                            Scopri il mio percorso
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+
+                        <a href="#contatti" class="button button-ghost">
+                            Contatti
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-right">
+
+                    <div class="terminal">
+
+                        <div class="terminal-header">
+
+                            <div class="terminal-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>elena@portfolio:~</span>
+
+                        </div>
+
+                        <div class="terminal-body">
+
+                            <p>
+                                <span class="terminal-purple">$</span>
+                                whoami
+                            </p>
+
+                            <p class="terminal-output">
+                                Software Engineer
+                            </p>
+
+                            <p>
+                                <span class="terminal-purple">$</span>
+                                skills
+                            </p>
+
+                            <p class="terminal-output">
+                                Java · Python · SQL · REST API
+                            </p>
+
+                            <p>
+                                <span class="terminal-purple">$</span>
+                                focus
+                            </p>
+
+                            <p class="terminal-output">
+                                Backend &amp; Software Engineering
+                            </p>
+
+                            <p class="cursor">
+                                <span class="terminal-purple">$</span>
+                                <span class="blink">_</span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
 
-        </article>
-
-
-        <article class="experience">
-
-            <div class="experience-meta">
-                <span>09/2022 — 07/2026</span>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <i class="fa-solid fa-arrow-down"></i>
             </div>
 
-            <div class="experience-content">
-
-                <h3>Backend Developer & Analista</h3>
-
-                <h4>Open-One S.r.l.</h4>
-
-                <p>
-                    Esperienza nello sviluppo backend e nell'analisi di
-                    applicazioni software, con coinvolgimento diretto
-                    nell'evoluzione e nella manutenzione di sistemi esistenti.
-                </p>
-
-                <p>
-                    Tra le attività svolte rientrano l'analisi dei requisiti,
-                    la progettazione di componenti e applicazioni software,
-                    lo sviluppo di API e funzionalità backend, la gestione
-                    e l'ottimizzazione dei database e l'analisi delle
-                    problematiche riscontrate in ambiente di produzione.
-                </p>
-
-                <p>
-                    Ho inoltre lavorato su attività di refactoring,
-                    migrazione di database, migrazione di sistemi legacy,
-                    reverse engineering, debugging e troubleshooting,
-                    confrontandomi con sistemi e tecnologie eterogenee.
-                </p>
-
-                <div class="experience-tags">
-                    <span>Java</span>
-                    <span>Python</span>
-                    <span>SQL</span>
-                    <span>REST API</span>
-                    <span>OOP</span>
-                    <span>Legacy</span>
-                    <span>Refactoring</span>
-                    <span>Database</span>
-                </div>
-
-            </div>
-
-        </article>
+        </header>
 
 
-        <article class="experience">
+        <!-- =========================
+             PROFILO
+             ========================= -->
 
-            <div class="experience-meta">
-                <span>05/2021</span>
-            </div>
+        <section id="profilo" class="section profile-section">
 
-            <div class="experience-content">
+            <div class="section-heading">
 
-                <h3>Stage</h3>
-
-                <h4>AVE S.p.A.</h4>
-
-                <p>
-                    Prima esperienza professionale in ambito informatico,
-                    attraverso la quale ho avuto modo di confrontarmi con
-                    un ambiente lavorativo reale e di applicare le conoscenze
-                    acquisite durante il percorso di studi.
-                </p>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<section id="education" class="section">
-
-    <div class="section-intro">
-        <span class="section-label">03 — FORMAZIONE</span>
-
-        <h2>
-            Le basi del mio
-            <span>percorso tecnico.</span>
-        </h2>
-    </div>
-
-    <div class="education-content">
-
-        <div>
-            <span class="education-type">
-                ISTRUZIONE SECONDARIA
-            </span>
-
-            <h3>
-                ITIS G. Perlasca
-            </h3>
-
-            <h4>
-                Vobarno — Sezione Informatica
-            </h4>
-        </div>
-
-        <div class="education-description">
-
-            <p>
-                Ho conseguito un percorso di istruzione secondaria
-                nell'articolazione <strong>Informatica</strong>,
-                sviluppando le basi tecniche che hanno costituito
-                il punto di partenza del mio percorso professionale
-                nel settore software.
-            </p>
-
-            <div class="grade">
-                <strong>100</strong>
-                <span>/ 100esimi</span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<section id="skills" class="section">
-
-    <div class="section-intro">
-        <span class="section-label">04 — COMPETENZE</span>
-
-        <h2>
-            Tecnologie, strumenti
-            <span>e metodo.</span>
-        </h2>
-    </div>
-
-
-    <div class="skills-section">
-
-        <div class="skill-group">
-
-            <div class="skill-heading">
-                <span>01</span>
-                <h3>Hard Skills</h3>
-            </div>
-
-            <div class="skill-cloud">
-
-                <span>SQL</span>
-                <span>Java</span>
-                <span>Python</span>
-                <span>OOP</span>
-                <span>REST API</span>
-                <span>Analisi dei requisiti</span>
-                <span>Ottimizzazione delle query</span>
-                <span>Performance DB</span>
-                <span>Architettura software</span>
-                <span>Progettazione software</span>
-                <span>Bash</span>
-                <span>Linux</span>
-                <span>Delphi</span>
-                <span>Reverse Engineering</span>
-                <span>Migrazioni DB</span>
-                <span>Sistemi legacy</span>
-                <span>Refactoring</span>
-                <span>Debugging</span>
-                <span>Troubleshooting</span>
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>Git</span>
-                <span>GitHub</span>
-
-            </div>
-
-        </div>
-
-
-        <div class="skill-group">
-
-            <div class="skill-heading">
-                <span>02</span>
-                <h3>Soft Skills</h3>
-            </div>
-
-            <div class="soft-skills">
-
-                <div>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <span>Problem solving e pensiero analitico</span>
+                <div class="section-number">
+                    01
                 </div>
 
                 <div>
-                    <i class="fa-solid fa-diagram-project"></i>
-                    <span>Analisi e comprensione di sistemi complessi</span>
+                    <span class="section-label">PROFILO</span>
+
+                    <h2>
+                        Un approccio tecnico,<br>
+                        <span>curioso e analitico.</span>
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="profile-grid">
+
+                <div class="profile-text">
+
+                    <p class="lead">
+                        Sono una Software Engineer specializzata nello
+                        sviluppo backend e nell'analisi di sistemi software.
+                    </p>
+
+                    <p>
+                        Nel mio percorso professionale ho avuto modo di
+                        lavorare su sistemi e tecnologie eterogenee,
+                        confrontandomi con applicazioni moderne e sistemi
+                        legacy.
+                    </p>
+
+                    <p>
+                        Mi occupo di comprendere il funzionamento dei sistemi,
+                        analizzare i requisiti e progettare architetture,
+                        componenti e applicazioni software in funzione delle
+                        esigenze del progetto.
+                    </p>
+
+                    <p>
+                        Tra le attività che mi interessano particolarmente
+                        rientrano l'ottimizzazione delle query e delle
+                        performance dei database, il refactoring,
+                        il debugging, il troubleshooting, il reverse
+                        engineering e le migrazioni di database e sistemi
+                        legacy.
+                    </p>
+
+                    <p>
+                        Il mio approccio è orientato alla comprensione del
+                        problema, alla ricerca della soluzione più adeguata
+                        e al miglioramento continuo della qualità del risultato.
+                    </p>
+
+                </div>
+
+
+                <div class="profile-side">
+
+                    <div class="profile-stat">
+                        <span class="stat-number">01</span>
+                        <div>
+                            <strong>Backend</strong>
+                            <p>
+                                Sviluppo di logica applicativa,
+                                API e sistemi software.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="profile-stat">
+                        <span class="stat-number">02</span>
+                        <div>
+                            <strong>Analisi</strong>
+                            <p>
+                                Comprensione dei requisiti e
+                                di sistemi complessi.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="profile-stat">
+                        <span class="stat-number">03</span>
+                        <div>
+                            <strong>Engineering</strong>
+                            <p>
+                                Refactoring, performance,
+                                debugging e sistemi legacy.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ESPERIENZA
+             ========================= -->
+
+        <section id="esperienza" class="section experience-section">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    02
                 </div>
 
                 <div>
-                    <i class="fa-solid fa-arrows-rotate"></i>
-                    <span>Adattabilità a tecnologie e sistemi eterogenei</span>
+                    <span class="section-label">ESPERIENZA PROFESSIONALE</span>
+
+                    <h2>
+                        Il mio percorso<br>
+                        <span>nel mondo del software.</span>
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="experience-list">
+
+                <!-- SCAO -->
+
+                <article class="experience-item current">
+
+                    <div class="experience-date">
+                        <span>SETTEMBRE 2026</span>
+                        <span>OGGI</span>
+                    </div>
+
+                    <div class="experience-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="experience-content">
+
+                        <div class="experience-title">
+
+                            <div>
+                                <h3>ERP Software Developer</h3>
+
+                                <p class="company">
+                                    SCAO Informatica
+                                </p>
+                            </div>
+
+                            <span class="current-label">
+                                ATTUALE
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Descrizione dell'attività, delle responsabilità
+                            e dei principali risultati.
+                        </p>
+
+                        <div class="experience-tags">
+                            <span>ERP</span>
+                            <span>Software Development</span>
+                            <span>Backend</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- OPEN-ONE -->
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        <span>SETTEMBRE 2022</span>
+                        <span>LUGLIO 2026</span>
+                    </div>
+
+                    <div class="experience-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="experience-content">
+
+                        <div class="experience-title">
+
+                            <div>
+                                <h3>Backend Developer &amp; Analista</h3>
+
+                                <p class="company">
+                                    Open-One S.r.l.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <p>
+                            Descrizione dell'esperienza lavorativa.
+                        </p>
+
+                        <div class="experience-tags">
+                            <span>Backend</span>
+                            <span>Analisi</span>
+                            <span>SQL</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- AVE -->
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        <span>MAGGIO 2021</span>
+                    </div>
+
+                    <div class="experience-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="experience-content">
+
+                        <div class="experience-title">
+
+                            <div>
+                                <h3>Stage</h3>
+
+                                <p class="company">
+                                    AVE S.p.A.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <p>
+                            Descrizione dell'esperienza lavorativa.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FORMAZIONE
+             ========================= -->
+
+        <section id="formazione" class="section education-section">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    03
                 </div>
 
                 <div>
-                    <i class="fa-solid fa-book-open"></i>
-                    <span>Capacità di apprendimento e adattamento</span>
+                    <span class="section-label">FORMAZIONE</span>
+
+                    <h2>
+                        Le basi del mio<br>
+                        <span>percorso professionale.</span>
+                    </h2>
                 </div>
 
-                <div>
-                    <i class="fa-solid fa-comments"></i>
-                    <span>
-                        Comunicazione con interlocutori tecnici
-                        e non tecnici
+            </div>
+
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div class="education-main">
+
+                    <span class="education-label">
+                        ISTRUZIONE SECONDARIA
                     </span>
+
+                    <h3>
+                        ITIS G. Perlasca
+                    </h3>
+
+                    <p class="education-location">
+                        Vobarno · Sezione Informatica
+                    </p>
+
+                    <p class="education-description">
+                        Ho conseguito un percorso d'istruzione secondaria di
+                        primo grado, articolazione <strong>informatica</strong>,
+                        con una valutazione di <strong>100/100esimi</strong>.
+                    </p>
+
                 </div>
 
-                <div>
-                    <i class="fa-solid fa-people-group"></i>
-                    <span>Leadership tecnica</span>
-                </div>
+                <div class="education-grade">
 
-                <div>
-                    <i class="fa-solid fa-user-check"></i>
-                    <span>
-                        Spiccata autonomia nell'apprendimento
-                        e nella gestione delle attività
-                    </span>
-                </div>
+                    <span>100</span>
 
-                <div>
-                    <i class="fa-solid fa-arrow-trend-up"></i>
-                    <span>
-                        Orientamento al miglioramento continuo
-                        e alla qualità dei risultati
-                    </span>
+                    <small>
+                        / 100
+                    </small>
+
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </div>
 
-</section>
+        <!-- =========================
+             COMPETENZE
+             ========================= -->
+
+        <section id="competenze" class="section skills-section">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    04
+                </div>
+
+                <div>
+                    <span class="section-label">COMPETENZE</span>
+
+                    <h2>
+                        Tecnologie, strumenti<br>
+                        <span>e competenze.</span>
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="skills-wrapper">
+
+                <!-- HARD SKILLS -->
+
+                <div class="skill-block">
+
+                    <div class="skill-block-header">
+
+                        <span class="skill-index">
+                            01
+                        </span>
+
+                        <div>
+                            <span class="section-label">
+                                HARD SKILLS
+                            </span>
+
+                            <h3>
+                                Tecnologie &amp; Engineering
+                            </h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-tags">
+
+                        <span>SQL</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>OOP</span>
+                        <span>REST API</span>
+                        <span>Analisi dei requisiti</span>
+                        <span>Ottimizzazione delle query</span>
+                        <span>Performance DB</span>
+                        <span>Progettazione di architettura</span>
+                        <span>Componenti software</span>
+                        <span>Applicazioni software</span>
+                        <span>Bash</span>
+                        <span>Linux</span>
+                        <span>Delphi</span>
+                        <span>Reverse Engineering</span>
+                        <span>Migrazioni di DB</span>
+                        <span>Migrazioni sistemi legacy</span>
+                        <span>Refactoring</span>
+                        <span>Debugging</span>
+                        <span>Troubleshooting</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SOFT SKILLS -->
+
+                <div class="skill-block soft-skill-block">
+
+                    <div class="skill-block-header">
+
+                        <span class="skill-index">
+                            02
+                        </span>
+
+                        <div>
+                            <span class="section-label">
+                                SOFT SKILLS
+                            </span>
+
+                            <h3>
+                                Metodo &amp; approccio
+                            </h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="soft-skills-list">
+
+                        <div>
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <span>
+                                Problem solving e pensiero analitico
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <span>
+                                Analisi e comprensione di sistemi complessi
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                            <span>
+                                Adattabilità a tecnologie e sistemi eterogenei
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>
+                                Capacità di apprendimento e adattamento
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-comments"></i>
+                            <span>
+                                Comunicazione con interlocutori tecnici
+                                e non tecnici
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-users"></i>
+                            <span>
+                                Leadership tecnica
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-user-gear"></i>
+                            <span>
+                                Spiccata autonomia nell'apprendimento
+                                e nella gestione delle attività
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-chart-line"></i>
+                            <span>
+                                Orientamento al miglioramento continuo
+                                e alla qualità dei risultati
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTATTI
+             ========================= -->
+
+        <section id="contatti" class="contact-section">
+
+            <div class="contact-background">
+                <div></div>
+            </div>
+
+            <div class="contact-inner">
+
+                <div class="contact-text">
+
+                    <span class="section-label">
+                        05 — CONTATTI
+                    </span>
+
+                    <h2>
+                        Parliamo di<br>
+                        <span>software.</span>
+                    </h2>
+
+                    <p>
+                        Per informazioni, collaborazioni o nuove opportunità
+                        professionali, puoi contattarmi attraverso uno dei
+                        canali qui sotto.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-links">
+
+                    <a
+                        href="mailto:tonolinielena03@gmail.com"
+                        class="contact-link">
+
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+                            <strong>
+                                tonolinielena03@gmail.com
+                            </strong>
+                        </div>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/elena-tonolini-4091b6419"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link">
+
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+
+                        <div>
+                            <span>LinkedIn</span>
+                            <strong>
+                                Elena Tonolini
+                            </strong>
+                        </div>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </a>
+
+
+                    <a
+                        href="https://github.com/elenatonolini"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link">
+
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+
+                        <div>
+                            <span>GitHub</span>
+                            <strong>
+                                elenatonolini
+                            </strong>
+                        </div>
+
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+
+    <footer>
+
+        <span>
+            © 2026 Elena Tonolini
+        </span>
+
+        <span>
+            Software Engineer &amp; Backend Developer
+        </span>
+
+    </footer>
+
+</body>
+
+</html>
